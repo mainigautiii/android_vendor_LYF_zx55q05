@@ -105,7 +105,11 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
@@ -198,10 +202,11 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
@@ -366,6 +371,14 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/etc/firmware/volte_modem/modem.b24:system/etc/firmware/volte_modem/modem.b24 \
     vendor/LYF/zx55q05/proprietary/etc/firmware/volte_modem/modem.b25:system/etc/firmware/volte_modem/modem.b25 \
     vendor/LYF/zx55q05/proprietary/etc/firmware/volte_modem/modem.mdt:system/etc/firmware/volte_modem/modem.mdt \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.msm8916.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/hw/sensors.msm8916.so:system/vendor/lib64/hw/sensors.msm8916.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/libstlport.so:system/vendor/lib64/libstlport.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
+
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
